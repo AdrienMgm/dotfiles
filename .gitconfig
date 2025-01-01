@@ -1,0 +1,10 @@
+[user]
+	name = AdrienMgm
+	email = 6249797+AdrienMgm@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
